@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(red, yellow);
+        }
+        
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+    padding: 10px;
+    column-gap: 20px;
+    height: 700px;
+    justify-content: space-around;
+}
+.grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6{
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px;
+    height: 250px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    color:wheat;
+    background-color: black;
+}
+button:hover{
+    background-color:red;
+    letter-spacing: 1px;
+}
+
+    </style>
+</head>
+<body>
+        
+    <div class="grid">
+        <br><h2 style="text-align: center;">Our Services</h2><br>
+        <div class="grid-item1">
+            <img src="html.jpg" width="150px" height="100px">
+            <h3>HTML 5</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.Minus,commodi?</p>
+            <a href="https://www.w3schools.com/html/">
+            <button type="submit">Read More</button></a>
+        </div>
+        <div class="grid-item2">
+            <img src="css.png" width="70px" height="100px">
+            <h3>CSS 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.Minus,commodi?</p>
+            <a href="https://www.w3schools.com/css/default.asp">
+                <button type="submit">Read More</button></a>
+        </div>
+        <div class="grid-item3">
+            <img src="js.jpg" width="100px" height="100px">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.Minus,commodi?</p>
+            <a href="https://www.w3schools.com/js/js_intro.asp">
+                <button type="submit">Read More</button>
+            </a>
+        </div>
+        <div class="grid-item4">
+            <img src="saas.png" width="100px" height="100px">
+            <h3>SASS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.Minus,commodi?</p>
+            <a href="https://www.w3schools.com/sass/">
+                <button type="submit">Read More</button>
+            </a>
+        </div>
+        <div class="grid-item5">
+            <img src="jquery.png" width="100px" height="100px">
+            <h3>J Query</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.Minus,commodi?</p>
+            <a href="https://www.w3schools.com/jquery/">
+                <button type="submit">Read More</button>
+                </a>
+        </div>
+        <div class="grid-item6">
+            <img src="react.png" width="100px" height="80px">
+            <h3>React.JS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit.Minus,commodi?</p>
+            <a href="https://www.w3schools.com/REACT/DEFAULT.ASP">
+                <button type="submit">Read More</button>
+                </a>
+        </div>
+    </div>
+</body>
+</html>
